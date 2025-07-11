@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["@types/react", "@types/react-dom", "jest", "@testing-library/jest-dom", "node"],
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -14,9 +15,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*", "./src/*/index.ts"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
