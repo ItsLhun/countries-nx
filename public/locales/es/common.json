@@ -6,6 +6,7 @@
   "population": "Población",
   "region": "Región",
   "flag": "Bandera",
+  "countryDescription": "Detalles sobre {{country}} incluyendo capital, población y región.",
   "lang": {
     "en": "Inglés",
     "es": "Español"
