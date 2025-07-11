@@ -1,6 +1,6 @@
 # Countries Explorer
 
-![App Preview](/tablet_ex.png)
+![Tablet version](./tablet_ex.png)
 
 Countries Explorer is a lightweight Next.js web application that displays detailed information about countries around the world. It fetches data from the [REST Countries API](https://restcountries.com/) and supports internationalization (English and Spanish) and theming (light/dark).
 
