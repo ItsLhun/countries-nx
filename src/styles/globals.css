@@ -20,4 +20,8 @@
   --color-text-muted: theme(colors.gray.400);
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
