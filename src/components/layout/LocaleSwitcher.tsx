@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 
 import { PlanetIcon } from '../icons/PlanetIcon';
 
 export default function LocaleSwitcher() {
   const router = useRouter();
   const { locale, locales, asPath } = router;
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -44,7 +46,7 @@ export default function LocaleSwitcher() {
                     loc === locale ? 'text-primary font-medium' : ''
                   }`}
                 >
-                  {loc === 'en' ? 'English' : 'Español'}
+                  {t(`lang.${loc}`, loc)}
                 </button>
               </li>
             ))}

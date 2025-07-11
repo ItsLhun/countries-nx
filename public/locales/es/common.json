@@ -5,5 +5,9 @@
   "capital": "Capital",
   "population": "Población",
   "region": "Región",
-  "flag": "Bandera"
+  "flag": "Bandera",
+  "lang": {
+    "en": "Inglés",
+    "es": "Español"
+  }
 }
